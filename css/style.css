@@ -1,1 +1,51 @@
 
+img{
+    width: 100%;
+}
+
+.foto-info{
+    position: relative;
+}
+.text-info{
+    position: absolute;
+    left: 30%;
+    top: 65%;
+}
+.fa{
+    font-size: 30px;
+}
+.font22{
+    font-size: 22px;
+}
+.font15{
+    font-size: 15px;
+}
+
+.strana p{
+    margin-bottom: 0!important;
+}
+.skill{
+    position: relative;
+    height: 5px;
+    border-radius: 3px;
+    background: #ccc;
+    
+}
+.skill .achievement{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: white;
+    width: 60%;
+    height: 5px;
+    border-radius: 3px;
+}
+.skill .achievement span{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: white;
+    right: -7px;
+    top: -4.5px;
+}
