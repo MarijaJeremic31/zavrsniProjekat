@@ -1,6 +1,11 @@
 
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
 img{
-    width: 100%;
+    max-width:100%;
+    max-height: 100%;
 }
 
 .foto-info{
@@ -21,15 +26,12 @@ img{
     font-size: 15px;
 }
 
-.strana p{
-    margin-bottom: 0!important;
-}
 .skill{
     position: relative;
     height: 5px;
     border-radius: 3px;
     background: #ccc;
-    
+
 }
 .skill .achievement{
     position: absolute;
@@ -40,6 +42,7 @@ img{
     height: 5px;
     border-radius: 3px;
 }
+
 .skill .achievement span{
     position: absolute;
     width: 14px;
@@ -49,3 +52,61 @@ img{
     right: -7px;
     top: -4.5px;
 }
+.experiences figure{
+    width: 40px;
+    height: 20px;
+}
+.experiences h2,
+.education h2,
+.interests h2{
+    color: #737373;
+
+}
+.experiences h5,
+.education h5{
+    color: #636363;
+}
+.experiences h6,
+.education h6{
+    color: #69b2e2;
+}
+.experiences p,
+.education p{
+    color: #8e8d8d;
+}
+
+
+.fa-graduation-cap{
+    color: #737373;
+}
+.interests .watch{
+    width: 20px;
+    height: 50px; 
+}
+.icon-interests{
+    max-height: 40px;
+}
+.email-info p{
+    color: #d4e5f4;
+}
+.headphones{
+    height: 260px;
+}
+.photography{
+    height: 233px;
+}
+.card-columns{
+    -webkit-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 1.50rem;
+            column-gap: 1.50rem;
+  }
+  .card-text{
+      font-size: 18px;
+  }
+  .sarma{
+      margin-bottom: 0px;
+      
+  }
+
+
