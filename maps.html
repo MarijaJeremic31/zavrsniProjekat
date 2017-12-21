@@ -27,11 +27,27 @@
     </head>
 
     <body>
+        <nav class="menu">
+            <ul class="side-menu list-unstyled">
+            <li><a href="#">NASLOVNA</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">LETTER</a></li>
+            </ul>
+        </nav>
+        <div class="menu-overlay">
+            
+        </div>
 
 
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 position1">
+                    <div class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
                     <aside class="bg-primary">
                         <section class="basic-info">
                             <article class="foto-info">
@@ -138,40 +154,79 @@
 
                 </div>
                 <div class="col-md-8 bg-light data-info">
-                    <div>
-                        <figure>
-                            <img src="img/single_photo1.jpg" alt=""/>
-                        </figure>
-                        <div>
-                            <h1>Website Redesign</h1>
-                            <h3>branding, ui-ux, article,</h3>
-                        </div>
-                        <div class="bg-white p-5 single-paragraf">
-                            <p class="text-justify">Donec id elit non mi porta gravida at eget metus.
-                                Duis mollis, est non commodo luctus, nisi erat
-                                porttitor ligula, eget lacinia odio sem nec elit. 
-                                Praesent commodo cursus magna, vel scelerisque
-                                nisl consectetur et. Vestibulum id ligula porta 
-                                felis euismod semper. Etiam porta sem malesuada
-                                magna mollis euismod.
-                            </p>
-                            <p class="text-justify">Donec id elit non mi
-                                porta gravida at eget metus. Fusce dapibus, 
-                                tellus ac cursus commodo, tortor mauris condimentum 
-                                nibh, ut fermentum massa justo sit amet risus.
-                                Fusce dapibus, tellus ac cursus commodo, tortor 
-                                mauris condimentum nibh, ut fermentum massa justo 
-                                sit amet risus. Aenean eu leo quam.
-                            </p>
-                            <p class="text-justify">Pellentesque 
-                                ornare sem lacinia quam venenatis vestibulum.
-                                Etiam porta sem malesuada magna mollis euismod. 
-                                Cras mattis consectetur purus sit amet fermentum.
-                                Fusce dapibus, tellus ac cursus commodo, tortor 
-                                mauris condimentum nibh, ut fermentum massa justo 
-                                sit amet risus.</p>
-                        </div>
-                    </div>
+                    <section class="experiences m-3 bg-white">
+                        <article class="">
+                            <div id="map_wrapper">
+                                <div id="map"></div>
+
+
+
+                            </div>
+                            <script>
+
+                                // This example displays a marker at the center of Australia.
+                                // When the user clicks the marker, an info window opens.
+
+                                function initMap() {
+                                    var uluru1 = {lat: 44.787029, lng: 20.468889};
+                                    
+
+                                    var map = new google.maps.Map(document.getElementById('map'), {
+                                        zoom: 16,
+                                        center: uluru1,
+                                        
+
+                                    });
+
+                                    var contentString1 = '<div id="content" class="text-center">' +
+                                            '<img  class="img-fluid" style="max-width:260px" src="img/Rayhan.jpg"></img>' +
+                                            '<div id="bodyContent">' +
+                                            '<h2 style="margin-top:10px">Marija Jeremic</h2>' +
+                                            '<p>Trise Kaclerovica 12, 11000 Beograd</p>' +
+                                            '<p>Tel:054/510-50-40</p>' +
+                                            '</div>' +
+                                            '</div>';
+
+                                    
+
+                                    var infowindow1 = new google.maps.InfoWindow({
+                                        content: contentString1
+                                    });
+                                    
+
+                                    var marker1 = new google.maps.Marker({
+                                        position: uluru1,
+                                        map: map,
+                                        title: 'Marija Jeremic',
+                                        animation: google.maps.Animation.DROP
+                                    });
+                                    marker1.addListener('click', function () {
+                                        infowindow1.open(map, marker1);
+                                    });
+                                    marker1.addListener('click', toggleBounce);
+
+                                    
+
+                                   
+                                }
+                                function toggleBounce() {
+        if (marker1.getAnimation() !== null) {
+          marker1.setAnimation(null);
+        } else {
+          marker1.setAnimation(google.maps.Animation.BOUNCE);
+        }
+      }
+
+                            </script>
+
+
+
+                            <script async defer
+                                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALry6mIEGc1uElFxqvnFLhKuWsSxc5ZzE&callback=initMap&scrollwheel=false">
+                            </script>
+
+                        </article>
+                    </section>
                 </div>
             </div>
         </div>

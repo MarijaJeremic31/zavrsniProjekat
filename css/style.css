@@ -7,6 +7,75 @@ img{
     max-width:100%;
     max-height: 100%;
 }
+.masonery{
+    position: relative;
+}
+#map_wrapper {
+    height: 400px;
+    margin-top: 20px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+.position1{
+   position: relative;
+}
+.toggle-menu{
+    padding: 7px 5px;
+    border: 1px solid black;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    border-radius: 2px;
+}
+.toggle-menu span{
+    display: block;
+    height: 2px;
+    width: 20px;
+    background: black;
+    margin-bottom: 3px;
+}
+.toggle-menu span:last-of-type{
+    margin-bottom: 0;
+    
+}
+.menu-overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    z-index: 15;
+    display: none;
+}
+.menu{
+    position: fixed;
+    left: -120%;
+    top: 0;
+    z-index: 20;
+    transition: 1s ease;
+    
+}
+.menu.active{
+    left: 0px;
+}
+.menu .side-menu{
+    height: 100vh;
+    background: black;
+    padding: 10px;
+    min-width: 300px;
+}
+.menu .side-menu a{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
 
 .foto-info{
     position: relative;
@@ -38,9 +107,10 @@ img{
     left: 0;
     top: 0;
     background: white;
-    width: 60%;
+    width: 0%;
     height: 5px;
     border-radius: 3px;
+    transition: 1s linear;
 }
 
 .skill .achievement span{
@@ -83,7 +153,9 @@ img{
     width: 20px;
     height: 50px; 
 }
-.icon-interests{
+
+.icon-interests img{
+    margin: auto;
     max-height: 40px;
 }
 .email-info p{
@@ -113,7 +185,15 @@ img{
       margin-left: -15px;
   }
   .single-paragraf{
-      font-size: 20px;
+      font-size: 18px;
   }
 
+  .member1{
+      margin-bottom: 0px;
+     
+  }
+  .member2{
+      overflow: hidden;
+     
+  }
 
