@@ -7,7 +7,7 @@ img{
     max-width:100%;
     max-height: 100%;
 }
-.masonery{
+.masonry{
     position: relative;
 }
 #map_wrapper {
@@ -23,19 +23,19 @@ img{
    position: relative;
 }
 .toggle-menu{
-    padding: 7px 5px;
-    border: 1px solid black;
+    padding: 18px 12px;
+    border: 3px solid #37cb59;
     position: absolute;
     top: 20px;
     left: 20px;
     z-index: 10;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 .toggle-menu span{
     display: block;
-    height: 2px;
-    width: 20px;
-    background: black;
+    height: 3px;
+    width: 30px;
+    background: #37cb59;
     margin-bottom: 3px;
 }
 .toggle-menu span:last-of-type{
@@ -65,14 +65,14 @@ img{
 }
 .menu .side-menu{
     height: 100vh;
-    background: black;
-    padding: 10px;
+    background: #5bf98a;
+    padding: 20px;
     min-width: 300px;
 }
 .menu .side-menu a{
     display: block;
     color: #fff;
-    font-size: 20px;
+    font-size: 23px;
     text-transform: uppercase;
 }
 
@@ -85,6 +85,13 @@ img{
     left: 30%;
     top: 65%;
 }
+.bcg{
+      background: #5bf98a;
+  }
+  .color-bcg{
+      background: #e3fceb;
+  }
+
 .fa{
     font-size: 30px;
 }
@@ -94,6 +101,7 @@ img{
 .font15{
     font-size: 15px;
 }
+
 
 .skill{
     position: relative;
@@ -122,6 +130,13 @@ img{
     right: -7px;
     top: -4.5px;
 }
+.white-section{
+    background: #fff;
+    margin: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
 .experiences figure{
     width: 40px;
     height: 20px;
@@ -138,7 +153,7 @@ img{
 }
 .experiences h6,
 .education h6{
-    color: #69b2e2;
+    color: #2bf968;
 }
 .experiences p,
 .education p{
@@ -156,34 +171,26 @@ img{
 
 .icon-interests img{
     margin: auto;
-    max-height: 40px;
+    max-height: 60px;
+    opacity: 0.8;
+}
+.email-info{
+    margin: 30px;
 }
 .email-info p{
-    color: #d4e5f4;
+    color: #2bf968;
+    opacity: 0.6;
 }
-.headphones{
-    height: 260px;
+
+
+.sarma-section{
+    margin-left: 30px;
+    margin-right: 30px;
 }
-.photography{
-    height: 233px;
-}
-.card-columns{
-    -webkit-column-count: 2;
-            column-count: 2;
-    -webkit-column-gap: 1.50rem;
-            column-gap: 1.50rem;
-  }
-  .card-text{
-      font-size: 18px;
-  }
   .sarma{
-      margin-bottom: 0px;
-      
+      margin-bottom: 0px;    
   }
   
-  .data-info{
-      margin-left: -15px;
-  }
   .single-paragraf{
       font-size: 18px;
   }
@@ -195,5 +202,14 @@ img{
   .member2{
       overflow: hidden;
      
+  }
+  .media-margin{
+      margin-left: 120px;
+  }
+  .form-control{
+      border: none;  
+  }
+  .btn{
+      background: #5bf98a;
   }
 

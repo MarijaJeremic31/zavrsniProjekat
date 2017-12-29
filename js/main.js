@@ -175,4 +175,4 @@ $(window).on('resize', function() {
 		}
 	}
 
-	minigrid({ container: '.masonery', item: '.masonery > *', gutter: 0});
+	minigrid({ container: '.masonry', item: '.masonry > *', gutter: 0});
