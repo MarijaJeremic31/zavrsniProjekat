@@ -201,84 +201,87 @@
                         </div>
                     </div>
                     <div class="ml-4 mr-4 bg-white mt-4 mb-4">
-                        <form class="contact-form pt-4 pl-4 pr-4" method="post" action="">
+                        <form class="contact-form pt-4 pl-4 pr-4 pb-3 no-gutters" method="post" action="">
                             <div class="form-group">
                                 <input class="form-control" name="name" value="" placeholder="Name">
                                 <div class="error"></div>
-                                <hr>
+                                
                             </div>
 
                             <div class="form-group">
                                 <input class="form-control" name="email" value="" placeholder="Email">
                                 <div class="error"></div>
                             </div>
-                            <hr>
+                            
                             <div class="form-group">
                                 <input class="form-control pb-5" name="text" value="" placeholder="Write Here">
                                 <div class="error"></div>
-                                <hr>
+                                
                             </div>
-                            <button class="btn mb-4 text-white text-uppercase mb" type="submit">Comment</button>
+                            <button class="btn mb-4 text-white text-uppercase" type="submit">Comment</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <script type="text/javascript">
-        $(document).ready(function () {
-                    $(".contact-form").validate({
-                        highlight: function (element) {
-                            $(element).closest('.form-group').addClass("has-danger");
-                            $(element).addClass("form-control-danger");
-                        },
-                        unhighlight: function (element) {
-                            $(element).closest('.form-group').removeClass('has-danger').addClass('has-success');
-                            $(element).removeClass('form-control-danger').addClass('form-control-success');
-                        },
-                        rules: {
-                            name: {
-                                required: true,
-                                rangelength: [3, 255]
-                            },
-                            email: {
-                                required: true,
-                                email: true
-                            },
-                            text: {
-                                required: true,
-                                rangelength: [10, 255]
-                            }
 
-                        },
-                        messages: {
-                            name: {
-                                required: "The *Name field is required!",
-                                rangelength: "The *Name must be between 3 and 255 characters!"
-                            },
-                            email: {
-                                required: "The *Email field is required!",
-                                email: "Please enter a valid email address!"
-                            },
-                            text: {
-                                required: "The *Text field is required!",
-                                rangelength: "The *Text must be between 10 and 255 characters!"
-                            }
-                        },
-                        errorElement: 'p',
-                        errorPlacement: function (error, element) {
-                            error.appendTo($(element).closest('.form-group').find('.error'));
-                        }
-
-                    });
-                });
-                
-        </script>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/poper.js" type="text/javascript"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
         <script src="js/main.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".contact-form").validate({
+                    highlight: function (element) {
+                        $(element).closest('.form-group').addClass("has-danger");
+                        $(element).addClass("form-control-danger");
+                    },
+                    unhighlight: function (element) {
+                        $(element).closest('.form-group').removeClass('has-danger').addClass('has-success');
+                        $(element).removeClass('form-control-danger').addClass('form-control-success');
+                    },
+                    rules: {
+                        name: {
+                            required: true,
+                            rangelength: [3, 255]
+                        },
+                        email: {
+                            required: true,
+                            email: true
+                        },
+                        text: {
+                            required: true,
+                            rangelength: [10, 255]
+                        }
+
+                    },
+                    messages: {
+                        name: {
+                            required: "The *Name field is required!",
+                            rangelength: "The *Name field must be between 3 and 255 characters!"
+                        },
+                        email: {
+                            required: "The *Email field is required!",
+                            email: "Please enter a valid email address!"
+                        },
+                        text: {
+                            required: "The *Text field is required!",
+                            rangelength: "The *Text  must be between 10 and 255 characters!"
+                        }
+                    },
+                    errorElement: 'p',
+                    errorPlacement: function (error, element) {
+                        error.appendTo($(element).closest('.form-group').find('.error'));
+                    }
+
+                });
+            });
+
+        </script>
     </body>
 
 </html>
