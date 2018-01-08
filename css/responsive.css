@@ -1,27 +1,375 @@
 
 @media(min-width:576px){
- 
-    
-    
+
+    .text-info{
+        left: 35%;
+        top: 65%;
+    }
+    .experiences figure{
+        margin-left: 160px;
+        height: 40px;
+        width: 60px;
+        margin-bottom: 30px;
+    }
+
+    .education .fa-graduation-cap{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .experiences div,
+    .education div,
+    .interests div{
+        text-align: center;
+        padding-right: 15px;
+    }
+    .icon-interests img{
+        margin: auto;
+        max-height: 40px
+    }
+    .experiences,
+    .education,
+    .interests{
+        padding-top: 20px;
+        margin-bottom: 0px!important;
+    }
+    .interests .watch{
+        margin-left: 160px;
+        height: 40px;
+        width: 70px;
+
+    }
+    .interests h2{
+        padding-bottom: 15px!important;
+    }
+    .experiences article,
+    .education article,
+    .interests article{
+        margin-left: 0px!important;
+    }
+    .email-info article{
+        padding-right: 20px;
+        padding-bottom: 0px!important;
+    }
+    .pad p{
+        padding-bottom: 0px!important;
+
+    }
+    .pad h4{
+        padding-top: 0px!important;  
+    }
+    .pad-text p{
+        font-size: 13px;
+    }
+    .pad-text h4{
+        font-size: 19px;
+    }
+    .email-info p{
+        font-size: 13px;
+    }
+    .masonry{
+        margin-bottom: 0px!important;
+    }
+    .email-info{
+        margin-bottom:15px!important;
+        margin-top:25px!important;
+    }
+    .sarma-section{
+        margin-bottom: 15px!important;
+        margin-top: 10px!important;
+    }
+    .pad-text h5{
+        font-size: 17px;
+    }
+
+
+
 }
 
 @media(min-width:768px){
- 
+
+    .toggle-menu{
+        padding: 13px 7px;
+        border: 2px solid #37cb59;
+    }
+    .toggle-menu span{
+        height: 2px;
+        width: 20px;
+        margin-bottom: 2px;  
+    }
+    .text-info h2{
+        font-size: 17px;
+    }
+    .text-info h4{
+        font-size: 13px;
+    }
+    .fa-user-o,
+    .fa-phone,
+    .fa-envelope,
+    .fa-map-o,
+    .fa-calendar-o{
+        font-size: 17px; 
+    }
+    aside p{
+        font-size: 10px;
+    }
+    .font22,
+    .font15{
+        font-size: 12px;
+
+    }
+    .padt address{
+        font-size: 12px;
+    }
+    .padt h4{
+        font-size: 13px;
+        padding-top: 5px;
+    }
+    .padt p{
+        margin-bottom: 0px;
+    }
+    .experiences figure,
+    .interests .watch{
+        margin-left: 0px;
+        height: 25px;
+        width: 30px;  
+    }
+    .education .fa-graduation-cap{
+        font-size:25px;
+    }
+    .experiences h2,
+    .education h2,
+    .interests h2{
+        font-size: 15px;
+    }
+    .experiences h5,
+    .education h5{
+        font-size: 12px;
+    }
+    .experiences h6,
+    .education h6{
+        font-size: 10px;
+    }
+    .experiences p,
+    .education p{
+        font-size: 9px;
+    }
+    .icon-interests img{
+        max-height: 20px;
+    } 
+    .fa-graduation-cap,
+    .experiences img,
+    .interests img,
+    .fa-paper-plane-o{
+        margin-top: 0px;
+    }
+    .email-info p{
+        font-size: 10px;
+    }
+    .experiences h2{
+        margin-top: 5px;
+    }
+    .experiences div,
+    .education div,
+    .interests div{
+        text-align: left;
+    }
+    .experiences div p,
+    .education div p,
+    .interests div p{
+        padding-bottom: 0px!important;
+    }
+    .skill .achievement span{
+        width: 10px;
+        height: 10px;
+        right: -5px;
+        top: -2.5px;
+    }
+    .masonry{
+        margin-top: 20px;
+    }
+    .pad-text p{
+        font-size: 11px;
+    }
+    .pad-text h4{
+        font-size: 16px;
+    }
+    .sarma-section .pad-text p:first-of-type{
+        font-size: 10px!important;
+        padding-bottom: 3px!important;
+        padding-top: 5px!important;
+    }
+    .pad-text h4{
+        margin-bottom: 5px!important;
+    }
+
+    .sarma-section .pad-text p:first-of-type{
+        margin-bottom: 5px;
+    }
     
     
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
 
 
 @media(min-width:992px){
-   
-    
-    
+
+    .experiences h2,
+    .education h2,
+    .interests h2{
+        font-size: 20px!important;
+    }
+    .text-info h2{
+        font-size: 20px;
+    }
+    .icon-interests img{
+        max-height: 35px;
+    } 
+    .sarma-section .pad-text p:first-of-type{
+        font-size: 12px!important;
+        padding-bottom: 10px!important;
+        padding-top:10px!important;
+    }
+     .pad-text h4{
+        padding-top: 10px!important;
+    }
+    .pad-text h5{
+        font-size: 25px;
+    }
+    .pad-text p{
+        font-size: 13px;
+    }
+
 }
 
 @media(min-width:1200px){
-   
-    
-    
+
+
+    .experiences h2,
+    .education h2,
+    .interests h2{
+        font-size: 25px!important;
+        padding-top: 20px;
+    }   
+    .experiences div p,
+    .education div p,
+    .interests div p{
+        padding-bottom: 20px!important;
+    }
+    .experiences h5,
+    .education h5{
+        font-size: 20px;
+    }
+    .experiences h6,
+    .education h6{
+        font-size: 17px;
+    }
+    .experiences p,
+    .education p{
+        font-size: 14px;
+    }
+    .icon-interests img{
+        max-height: 50px;
+    }
+    .experiences figure,
+    .interests .watch{
+        margin-left: 0px;
+        height: 35px;
+        width: 50px;
+        margin-top: 20px;
+
+    }
+    .education .fa-graduation-cap{
+        font-size:40px;
+        padding-top: 20px;
+    }
+    .email-info p{
+        font-size: 15px;
+    }
+    .toggle-menu{
+        padding: 15px 9px;
+        border: 3px solid #37cb59;
+    }
+    .toggle-menu span{
+        height: 3px;
+        width: 30px;
+        margin-bottom: 3px;  
+    }
+    .text-info h2{
+        font-size: 30px;
+    }
+    .text-info h4{
+        font-size: 20px;
+    }
+    .fa-user-o,
+    .fa-phone,
+    .fa-envelope,
+    .fa-map-o,
+    .fa-calendar-o{
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    aside p{
+        font-size: 15px;
+    }
+    .font22{
+        font-size: 20px;
+    }
+    .font15{
+        font-size: 15px;
+
+    }
+    .padt address{
+        font-size: 17px;
+    }
+    .padt h4{
+        font-size: 22px;
+
+    }
+    .skill .achievement span{
+        width: 14px;
+        height: 14px;
+        right: -7px;
+        top: -4.5px;
+    }
+    hr{
+        margin-top: 40px;
+    }
+    aside p:first-of-type{
+        padding-top: 20px;
+    }
+    .pad-text p{
+        font-size: 15px;
+    }
+    .pad-text h4{
+        font-size: 20px;
+    }
+    .sarma-section .pad-text p:first-of-type{
+        font-size: 15px!important;
+    }
+    .fa-map-o,
+    .fa-calendar-o,
+    .fa-envelope,
+    .fa-phone{
+        padding-top: 0px!important;
+    }
+    .padt{
+        padding-top: 0px!important;
+    }
+    .font22{
+        padding-top: 0px!important;
+    }
+
 }

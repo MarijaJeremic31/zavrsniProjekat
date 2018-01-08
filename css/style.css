@@ -137,10 +137,10 @@ img{
     padding-left: 50px;
 }
 
-.experiences figure{
+/*.experiences figure{
     width: 40px;
     height: 20px;
-}
+}*/
 .experiences h2,
 .education h2,
 .interests h2,
@@ -176,10 +176,10 @@ img{
     color: #737373;
     margin-top: 5px;
 }
-.interests .watch{
+/*.interests .watch{
     width: 20px;
     height: 50px; 
-}
+}*/
 
 .icon-interests img{
     margin: auto;
@@ -194,6 +194,7 @@ img{
     color: #2bf968;
     opacity: 0.6;
 }
+
 
 
 .sarma-section{
