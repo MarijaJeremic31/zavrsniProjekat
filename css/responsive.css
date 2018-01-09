@@ -12,7 +12,7 @@
         margin-bottom: 30px;
     }
 
-    .education .fa-graduation-cap{
+    .fa-graduation-cap{
         font-size: 50px;
         margin-bottom: 20px;
     }
@@ -80,6 +80,47 @@
     .pad-text h5{
         font-size: 17px;
     }
+    .references div{
+        text-align: center;
+        padding-right: 15px;
+    }
+    .references{
+       padding-top: 20px;
+       padding-left: 20px;
+    }
+    .references p:first-of-type{
+        margin-bottom: 0px!important;
+        padding-bottom: 0px!important;
+    }
+    .references h5:last-of-type{
+        margin-top: 0px!important;
+    }
+    .references p:last-of-type{
+        margin-bottom: 5px!important;
+    }
+    .references .fa-graduation-cap{
+        margin-bottom: 0px;
+    }
+    .letter{
+        padding-top: 25px;
+    }
+    .letter address:last-of-type{
+        padding-bottom: 20px!important;
+    }
+    .letter h5{
+        font-size: 16px;
+        margin-bottom: 20px!important;
+    }
+     .letter address{
+        font-size: 14px;
+        margin-bottom: 20px!important;
+    }
+    .letter p{
+        font-size: 12px;
+         margin-bottom: 0px!important;
+        
+    }
+    
 
 
 
@@ -205,6 +246,38 @@
     .sarma-section .pad-text p:first-of-type{
         margin-bottom: 5px;
     }
+    .letter h5{
+        font-size: 16px;
+        margin-bottom: 20px!important;
+    }
+    .letter address{
+        font-size: 14px;
+        margin-bottom: 20px!important;
+    }
+    .letter p{
+        font-size: 12px;
+        margin-bottom: 0px!important;
+    }
+    .letter p:nth-of-type(3){
+        padding-bottom: 20px!important;
+    }
+    .references .fa-graduation-cap{
+        font-size: 35px;
+        padding-left: 15px;
+    }
+    .references p{
+        font-size: 12px;
+    }
+    .references h5{
+        font-size: 16px;
+    }
+     .references h6{
+        font-size: 13px;
+    }
+    .references h2{
+        font-size: 22px;
+    }
+
     
     
 
@@ -251,6 +324,15 @@
     .pad-text p{
         font-size: 13px;
     }
+    .letter{
+       padding-top: 35px;
+       padding-bottom: 5px;
+    }
+    .references .padlr{
+        text-align: left;
+        padding-left: 20px;
+    }
+    
 
 }
 
@@ -370,6 +452,43 @@
     }
     .font22{
         padding-top: 0px!important;
+    }
+    .letter h5{
+        font-size: 20px;
+    }
+    .letter h5:last-of-type{
+        padding-bottom: 20px;
+    }
+    .letter address{
+        font-size: 16px;
+    }
+    .letter p{
+        font-size: 15px;
+    }
+    .letter p:nth-of-type(3){
+        padding-bottom: 40px!important;
+    }
+    .references .fa-graduation-cap{
+        font-size: 35px;
+        padding-left: 15px;
+    }
+    .references p{
+        font-size: 15px;
+    }
+    .references h5{
+        font-size: 18px;
+    }
+     .references h6{
+        font-size: 14px;
+    }
+    .references .padlr h2{
+        font-size: 30px!important;
+    }
+    .padlr{
+        padding-bottom: 20px;
+    }
+    .padlr hr{
+        margin-top:20px!important;
     }
 
 }
