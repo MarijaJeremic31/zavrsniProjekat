@@ -141,6 +141,9 @@
         padding-bottom: 5px!important;
         font-size: 15px;
     }
+    .color-bcg{
+       padding-right: 15px!important; 
+    }
     
 
 
@@ -310,6 +313,22 @@
     .contact .btn{
         font-size: 13px;
     }
+    .color-bcg{
+       padding-top: 25px!important; 
+    }
+    .projects{
+        margin-bottom: 10px!important;
+    }
+    .projects .hover{
+        left: 20%;
+    }
+    .projects .hover h6{
+        font-size: 13px!important;
+    }
+    .projects .hover p{
+        font-size: 8px!important;
+    }
+    
 
     
     
@@ -364,6 +383,15 @@
     .references .padlr{
         text-align: left;
         padding-left: 20px;
+    }
+    .projects .hover{
+        left: 30%;
+    }
+    .projects .hover h6{
+        font-size: 15px!important;
+    }
+    .projects .hover p{
+        font-size: 10px!important;
     }
     
 
@@ -540,6 +568,22 @@
     }
     .contact-form{
         padding-bottom: 20px!important;
+    }
+     .projects{
+        margin-bottom: 30px!important
+    }
+    .projects .hover{
+        left: 30%;
+    }
+    .projects .hover h6{
+        font-size: 18px!important;
+    }
+    .projects .hover p{
+        font-size: 12px!important;
+    }
+    .color-bcg{
+       padding-top: 45px!important; 
+       padding-right: 45px!important;
     }
     
 
