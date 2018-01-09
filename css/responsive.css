@@ -117,8 +117,29 @@
     }
     .letter p{
         font-size: 12px;
-         margin-bottom: 0px!important;
-        
+         margin-bottom: 0px!important;    
+    }
+    
+    .location{
+        margin-bottom: 0px!important;
+    }
+    .contact{
+        margin-bottom: 0px!important;  
+    }
+    .contact h2{
+        font-size: 25px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .contact-form{
+        padding-left: 20px;
+        padding-top: 0px!important;
+        padding-bottom: 0px!important;
+    }
+    .email article{
+        padding-top: 15px!important;
+        padding-bottom: 5px!important;
+        font-size: 15px;
     }
     
 
@@ -156,7 +177,6 @@
     .font22,
     .font15{
         font-size: 12px;
-
     }
     .padt address{
         font-size: 12px;
@@ -276,6 +296,19 @@
     }
     .references h2{
         font-size: 22px;
+    }
+    .location{
+        margin-bottom: 30px!important;
+    }
+    .contact h2{
+        text-align: left;
+        padding-top: 0px;
+    }
+    .contact-form{
+        padding-left: 0px;   
+    }
+    .contact .btn{
+        font-size: 13px;
     }
 
     
@@ -490,5 +523,24 @@
     .padlr hr{
         margin-top:20px!important;
     }
+    .contact{
+        padding-top: 20px!important;
+    }
+    .contact .btn{
+        font-size: 17px;
+    }
+    .contact h2{
+        font-size: 32px;
+        padding-bottom: 30px!important;  
+    }
+    .email article{
+        padding-top: 30px!important;
+        padding-bottom: 15px!important;
+        font-size: 16px;
+    }
+    .contact-form{
+        padding-bottom: 20px!important;
+    }
+    
 
 }
