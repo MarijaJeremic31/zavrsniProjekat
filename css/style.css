@@ -5,10 +5,19 @@
 
 img{
     max-width:100%;
-    max-height: 100%;
+    
 }
 .masonry{
     position: relative;
+}
+/*img-port{
+    position: absolute;
+    margin-bottom: 0px!important;
+    
+}*/
+figure {
+  margin: 0px;
+  
 }
 #map_wrapper {
     height: 400px;
