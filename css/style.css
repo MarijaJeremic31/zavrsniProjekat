@@ -5,7 +5,7 @@
 
 img{
     max-width:100%;
-    
+    max-height: 100%;
 }
 .masonry{
     position: relative;
@@ -15,10 +15,8 @@ img{
     margin-bottom: 0px!important;
     
 }*/
-figure {
-  margin: 0px;
-  
-}
+
+
 #map_wrapper {
     height: 400px;
     margin-top: 20px;
@@ -32,8 +30,8 @@ figure {
     position: relative;
 }
 .toggle-menu{
-    padding: 18px 12px;
-    border: 3px solid #37cb59;
+    padding: 12px 8px;
+    border: 2px solid #009900;
     position: absolute;
     top: 20px;
     left: 20px;
@@ -42,14 +40,13 @@ figure {
 }
 .toggle-menu span{
     display: block;
-    height: 3px;
-    width: 30px;
-    background: #37cb59;
-    margin-bottom: 3px;
+    height: 2px;
+    width: 15px;
+    background: #009900;
+    margin-bottom: 1px;
 }
 .toggle-menu span:last-of-type{
     margin-bottom: 0;
-
 }
 .menu-overlay{
     position: fixed;
@@ -84,32 +81,46 @@ figure {
     font-size: 23px;
     text-transform: uppercase;
 }
+.education .fa-graduation-cap{
+    font-size: 25px;
+}
 
+.icon .watch img{
+    max-height: 27px;
+}
 
 .foto-info{
     position: relative;
 }
 .text-info{
     position: absolute;
-    left: 30%;
+    left: 40%;
     top: 65%;
 }
+.text-info h2{
+    font-size: 17px;
+    font-weight: bold;
+}
+.text-info h4{
+    font-size: 15px;
+}
 .bcg{
-    background: #5bf98a;
+    background: #009900;
 }
 .color-bcg{
     background: #e3fceb;
 }
-
+/*
 .fa{
     font-size: 30px;
-}
+}*/
+/*
 .font22{
     font-size: 22px;
 }
 .font15{
     font-size: 15px;
-}
+}*/
 
 
 .skill{
@@ -141,32 +152,68 @@ figure {
 }
 .white-section{
     background: #fff;
-    margin: 30px;
-    padding-top: 50px;
-    padding-left: 50px;
+    /*padding-top: 50px;*/
 }
 
-/*.experiences figure{
-    width: 40px;
+.experiences,
+.education,
+.interests{
+    padding-top: 10px;
+    text-align: center;
+}
+.experiences figure,
+.interests figure{
     height: 20px;
-}*/
+    width: 40px;
+}
+.fa-user-o,
+.fa-phone,
+.fa-envelope,
+.fa-map-o,
+.fa-calendar-o{
+    font-size: 18px;
+}
+aside p{
+    font-size: 12px;
+}
+aside address{
+    font-size: 12px;
+}
+aside h4{
+    font-size: 14px;
+}
+
+.padt p{
+    padding-bottom: 0px!important;   
+}.font22{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.font15{
+    font-size: 9px;
+    margin-bottom: 0px;
+}
 .experiences h2,
 .education h2,
 .interests h2,
 .references h2,
 .contact h2{
     color: #737373;
+    font-size: 18px;
+    padding-bottom: 0px;
 
 }
 .experiences h5,
 .education h5,
-.references{
+.references h5{
     color: #636363;
+    font-size: 13px;
 }
 .experiences h6,
 .education h6,
 .references h6{
     color: #2bf968;
+    font-size: 11px;
 }
 .experiences p,
 .education p,
@@ -175,47 +222,63 @@ figure {
 .letter address,
 .letter h5{
     color: #8e8d8d;
+    font-size: 10px;
+    padding-bottom: 0px;
 }
-
+.dcheck{
+    display: flex;
+}
+.icon{
+    justify-content: center;
+}
+.email-info p,
+.email p{
+    font-size: 10px;
+}
 
 .fa-graduation-cap,
 .experiences img,
 .interests img,
 .fa-paper-plane-o{
     color: #737373;
-    margin-top: 5px;
 }
-/*.interests .watch{
-    width: 20px;
-    height: 50px; 
-}*/
-
 .icon-interests img{
     margin: auto;
     max-height: 60px;
     opacity: 0.8;
-}
-.email-info{
-    margin: 30px;
 }
 .email-info p,
 .email p{
     color: #2bf968;
     opacity: 0.6;
 }
+.color-bcg a{
+    color: #4d0000;
+}
 
-
+.pad-text h4{
+    font-size: 17px; 
+}
+.pad-text p{
+    font-size: 13px; 
+}
 
 .sarma-section{
     margin-left: 30px;
     margin-right: 30px;
 }
-.sarma{
-    margin-bottom: 0px;    
-}
+/*.sarma{
+    margin-bottom: 0px!important;    
+}*/
 
-.single-paragraf{
+/*.single-paragraf{
     font-size: 18px;
+}*/
+.single .pad h3{
+    font-size: 18px;
+}
+.single .pad p{
+    font-size: 13px;
 }
 
 .member1{
@@ -242,12 +305,15 @@ figure {
 .letter h4{
     font-family: 'Dancing Script', cursive;
 }
-.references .fa-graduation-cap{
+/*.references .fa-graduation-cap{
     margin-left: -15px; 
 
-}
+}*/
 .contact-form button{
     box-shadow: 3px 5px 15px 4px #e3fceb;
+}
+.contact-form input{
+    font-size: 14px;
 }
 .form-control:focus{
     border: 1px solid #e3fceb;
@@ -256,31 +322,47 @@ figure {
 .form-control{
     padding-left: 0px;
 }
+.projects .hover h6{
+    font-size: 15px;
+}
+.projects .hover p{
+    font-size: 12px;
+}
 
-.projects figure{
+.imgHover{
+    position: relative;
+}
+.imgHover figure{
     overflow: hidden;
 }
-.projects a img{
-    transition: 1s linear
+.imgHover a .projectsHover{
+    transition: 1s linear;
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
 }
-.projects a:hover img{
+.imgHover a:hover .projectsHover{
     transform: scale(1.2);
-    opacity: 0.4;
 }
-.hover{
+.imgHover:hover{
+    opacity: 0.7;
+}
+.imgHover .hover{
     position: absolute;
-    left: 30%;
-    top: 20%;
-    font-size: 10px;
-    color: black;
-    display: none; 
+    bottom: 0!important;
+    left: 0!important;
+    top: 0px!important;
+    width: 100%;
+    opacity: 0;
+    background: rgba(0,102,102,0.7);
+    color: white;
+    padding-top: 15%;
+    padding-left: 20%;
+
 }
-.projects:hover .hover{
-    display: block;
+.imgHover:hover .hover{
+    opacity: 1;
 }
-.projects{
-    margin-bottom: 30px;
-}
+
 
 
 
