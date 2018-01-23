@@ -15,12 +15,7 @@
     .text-info{
         left: 45%;
     }
-    .text-info h2{
-        font-size: 20px;
-    }
-    .text-info h4{
-        font-size: 17px;
-    }
+    
     .fa-user-o,
     .fa-phone,
     .fa-envelope,
@@ -28,15 +23,7 @@
     .fa-calendar-o{
         font-size: 20px;
     }
-    aside p{
-        font-size: 12px;
-    }
-    aside address{
-        font-size: 12px;
-    }
-    aside h4{
-        font-size: 14px;
-    }
+    
     .education .fa-graduation-cap{
         font-size: 25px;
     }
@@ -68,15 +55,7 @@
     .single .pad h3{
         padding-top: 10px!important;
     }
-    .single .pad-text h5{
-        font-size: 15px;
-    }
-    .single .pad-text p{
-        font-size: 11px;
-    }
-    .single .pad-text h6{
-        font-size: 13px;
-    }
+    
     .media-margin{
         margin-top: 10px!important;
     }
@@ -86,6 +65,11 @@
     .media-margin .pad-text p{
         font-size: 9px;
     }
+    .icon-interests img{
+    margin: auto;
+    max-height: 60px;
+    opacity: 0.8;
+}
 
     /***letter strana****/  
 
@@ -98,7 +82,7 @@
     .letter address:last-of-type{
         padding-bottom: 20px!important;
     }
-    .letter h5{
+/*    .letter h5{
         font-size: 14px!important;
         margin-bottom: 20px!important;
     }
@@ -109,7 +93,7 @@
     .letter p{
         font-size: 10px!important;
         margin-bottom: 0px!important;    
-    }
+    }*/
     .references{
         margin-bottom: 0px!important;
     }
@@ -177,7 +161,7 @@
         height: 2px;
         width: 20px;
     }
-    aside p{
+/*    aside p{
         font-size: 13px;
     }
     aside address{
@@ -191,7 +175,7 @@
     }
     .font15{
         font-size: 11px;
-    }
+    }*/
     .experiences,
     .education,
     .interests{
@@ -200,10 +184,10 @@
     .experiences h2,
     .education h2,
     .interests h2{
-        font-size: 20px;
+        /*font-size: 20px;*/
         padding-bottom: 0px!important;
     }
-    .experiences h5,
+/*    .experiences h5,
     .education h5{
         font-size: 15px;
     }
@@ -215,7 +199,7 @@
     .education p{
         font-size: 12px;
         padding-bottom: 0px!important;
-    }
+    }*/
     .white-section{
         margin-bottom: 15px;
         margin-left: 15px;
@@ -225,8 +209,8 @@
         max-height: 25px;
     }
     .email-info{
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
         margin-bottom: 20px;
     }
     .email-info p{
@@ -251,18 +235,18 @@
     .masonry{
         margin-top: 10px!important;
     }
-    .pad-text p{
+/*    .pad-text p{
         font-size: 13px;
-    }
+    }*/
     .pad-text h4{
-        font-size: 15px;
+        /*font-size: 15px;*/
         margin-bottom: 5px!important;
     }
     .pad:last-of-type{
         padding-bottom: 10px;
     }
     .sarma-section .pad-text p:first-of-type{
-        font-size: 13px!important;   
+        /*font-size: 13px!important;*/   
     }
     .sarma{
         margin-bottom: 0px!important; 
@@ -280,13 +264,13 @@
     /***single strana***/
 
     .single .pad-text p{
-        font-size: 13px;
+        /*font-size: 13px;*/
     }
     .media .pad-text p{
-        font-size: 12px;
+        /*font-size: 12px;*/
     }
     .media-margin .pad-text p{
-        font-size: 10px;
+        /*font-size: 10px;*/
     }
 
 
@@ -299,35 +283,35 @@
         padding-left: 10px;
     }
     .letter h5{
-        font-size: 16px;
+        /*font-size: 16px;*/
         margin-bottom: 20px!important;
     }
     .letter address{
-        font-size: 14px;
+        /*font-size: 14px;*/
         margin-bottom: 20px!important;
     }
     .letter p{
-        font-size: 12px!important;
+        /*font-size: 12px!important;*/
         margin-bottom: 0px!important;
     }
     .letter p:nth-of-type(3){
         padding-bottom: 20px!important;
     }
     .references .fa-graduation-cap{
-        font-size: 35px;
+        /*font-size: 35px;*/
         padding-left: 15px;
     }
     .references p{
-        font-size: 12px;
+        /*font-size: 12px;*/
     }
     .references h5{
-        font-size: 16px;
+        /*font-size: 16px;*/
     }
     .references h6{
-        font-size: 13px;
+        /*font-size: 13px;*/
     }
     .references h2{
-        font-size: 22px;
+        /*font-size: 22px;*/
     }
 
     /****maps strana****/
@@ -343,7 +327,7 @@
         padding-left: 0px;   
     }
     .contact .btn{
-        font-size: 13px;
+        /*font-size: 13px;*/
     }
     .color-bcg{
         padding-top: 25px!important; 
@@ -354,20 +338,20 @@
     .color-bcg{
         padding-right: 20px!important;
     }
-    .projects{
-        margin-bottom: 10px!important;
-    }
+    
     .projects .hover{
         left: 20%;
     }
     .projects .hover h6{
-        font-size: 14px!important;
+        /*font-size: 14px!important;*/
     }
     .projects .hover p{
-        font-size: 10px!important;
+        /*font-size: 10px!important;*/
     }
 
-
+    .masonry{
+        background: transparent !important;
+    }
 
 
 
@@ -389,7 +373,7 @@
 
 @media(min-width:992px){
     /****index strana****/
-    aside p{
+/*    aside p{
         font-size: 14px;
     }
     aside address{
@@ -411,7 +395,7 @@
     }
     .text-info h2{
         font-size: 20px;
-    }
+    }*/
     .icon-interests img{
         max-height: 35px;
     } 
@@ -448,7 +432,7 @@
         padding-bottom: 5px;
         padding-left: 20px!important;
     }
-    .letter p{
+/*    .letter p{
         font-size: 14px!important;
     }
     .letter address{
@@ -456,7 +440,7 @@
     }
     .letter h5{
         font-size: 16px!important;
-    }
+    }*/
     .references .fa-graduation-cap{
         padding-left: 0px!important;
     }
@@ -472,12 +456,12 @@
     .projects .hover{
         left: 30%;
     }
-    .projects .hover h6{
+/*    .projects .hover h6{
         font-size: 15px!important;
     }
     .projects .hover p{
         font-size: 10px!important;
-    }
+    }*/
 
 
 }
@@ -501,7 +485,7 @@
     .interests div p{
         padding-bottom: 10px!important;
     }
-    .experiences h5,
+/*    .experiences h5,
     .education h5{
         font-size: 20px;
     }
@@ -512,7 +496,7 @@
     .experiences p,
     .education p{
         font-size: 14px;
-    }
+    }*/
     .icon-interests{
         padding-bottom: 35px;
     }
@@ -564,7 +548,7 @@
         font-size: 25px;
         padding-top: 20px;
     }
-    aside p{
+/*    aside p{
         font-size: 15px;
     }
     .font22{
@@ -578,8 +562,8 @@
         font-size: 17px;
     }
     .padt h4{
-        font-size: 22px;
-    }
+        font-size: 22px;*/
+    /*}*/
     .skill .achievement span{
         width: 14px;
         height: 14px;
@@ -590,10 +574,10 @@
         padding-top: 20px;
     }
     .pad-text p{
-        font-size: 15px;
+        /*font-size: 15px;*/
     }
     .pad-text h4{
-        font-size: 20px;
+        /*font-size: 20px;*/
     }
     .padt{
         padding-top: 0px!important;
@@ -615,7 +599,7 @@
 
     /***single strana***/
 
-    .single .pad h3{
+/*    .single .pad h3{
         font-size: 22px;
     }
     .single .pad p{
@@ -635,7 +619,7 @@
     }
     .media-margin .pad-text p{
         font-size: 12px;
-    }
+    }*/
     .media-margin .pad-text{
         padding-top: 16px!important;
     }
@@ -651,12 +635,12 @@
     .letter h5:last-of-type{
         padding-bottom: 20px;
     }
-    .letter address{
+/*    .letter address{
         font-size: 16px!important;
     }
     .letter p{
         font-size: 15px!important;
-    }
+    }*/
     .letter p:nth-of-type(3){
         padding-bottom: 40px!important;
     }
@@ -664,7 +648,7 @@
         font-size: 35px;
         padding-left: 15px;
     }
-    .references p{
+/*    .references p{
         font-size: 15px;
     }
     .references h5{
@@ -675,7 +659,7 @@
     }
     .references .padlr h2{
         font-size: 30px!important;
-    }  
+    }  */
     .padlr{
         padding-bottom: 20px;
     }
@@ -689,7 +673,7 @@
         padding-top: 20px!important;
     }
     .contact .btn{
-        font-size: 17px;
+        /*font-size: 17px;*/
     }
     .contact h2{
         font-size: 32px;
@@ -715,12 +699,12 @@
     .projects .hover{
         left: 30%;
     }
-    .projects .hover h6{
+/*    .projects .hover h6{
         font-size: 18px!important;
     }
     .projects .hover p{
         font-size: 14px!important;
-    }
+    }*/
 
 
     .color-bcg{
