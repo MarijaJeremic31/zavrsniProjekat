@@ -40,7 +40,6 @@ img{
 }
 .position1{
     position: relative;
-    margin-bottom: 15px;
 }
 .toggle-menu{
     padding: 15px 11px;
@@ -50,13 +49,17 @@ img{
     left: 20px;
     z-index: 10;
     border-radius: 5px;
+    background: white;
+}
+.toggle-menu:hover{
+    background-color:#b1dfbb;
 }
 .toggle-menu span{
     display: block;
-    height: 2px;
-    width: 18px;
+    height: 3px;
+    width: 20px;
     background: #009900;
-    margin-bottom: 1px;
+    margin-bottom: 2px;
 }
 .toggle-menu span:last-of-type{
     margin-bottom: 0;
@@ -94,8 +97,9 @@ img{
     font-size: 23px;
     text-transform: uppercase;
 }
-.education .fa-graduation-cap{
-    font-size: 25px;
+.education .fa-graduation-cap,
+.references .fa-graduation-cap{
+    font-size: 30px;
 }
 
 .icon .watch img{
@@ -163,6 +167,17 @@ img{
 .white-section{
     background: #fff;
     /*padding-top: 50px;*/
+}
+.education:hover,
+.experiences:hover,
+.interests:hover,
+.email-info:hover,
+.letter:hover,
+.references:hover,
+.contact:hover,
+.email:hover,
+.contact-form:hover{
+    border: 2px solid green;
 }
 
 .experiences,
@@ -258,6 +273,10 @@ aside h4{
 .email p{
     color: #00b300;
     opacity: 0.6;
+}
+.email-info a,
+.email a{
+    color: green!important;
 }
 .color-bcg a{
     color: #4d0000;
