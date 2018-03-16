@@ -179,6 +179,9 @@ img{
 .contact-form:hover{
     border: 2px solid green;
 }
+.contact .contact-form:hover{
+    border: none;
+}
 
 .experiences,
 .education,
