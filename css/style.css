@@ -87,15 +87,28 @@ img{
 }
 .menu .side-menu{
     height: 100vh;
-    background: linear-gradient(to bottom right,green,yellow);
-    padding: 20px;
-    min-width: 300px;
+    background: white;
+    padding-top: 100px;
+    min-width: 150px;
+    border: 2px solid black;
+    
 }
 .menu .side-menu a{
     display: block;
-    color: #fff;
-    font-size: 23px;
+    color: black;
+    font-size: 15px;
     text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+    padding-bottom: 30px;
+    padding-left: 10px;
+
+}
+.menu .side-menu li:hover a{
+    background: #003300;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    text-decoration: none;
 }
 .education .fa-graduation-cap,
 .references .fa-graduation-cap{
@@ -119,7 +132,7 @@ img{
 }
 
 .bcg{
-    background: #009900;
+    background: #003300;
 }
 .color-bcg{
     background: #e3fceb;
